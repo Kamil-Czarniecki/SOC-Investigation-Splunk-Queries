@@ -277,7 +277,7 @@ Network connections from a source IP using the CIM `Network_Traffic` data model.
 Searches NAC (ForeScout) data for devices that look like rogue or offensive-security hardware: Raspberry Pi, Kali, Cobalt Strike-style hostnames, Commando VM, or devices in the "known bad" group. Remove the MAC filter if you only want the keyword/group matches.
 
 ```spl
-servicindex=<NAC_INDEX> sourcetype=<NAC_SOURCETYPE>e_tier
+index=<NAC_INDEX> sourcetype=<NAC_SOURCETYPE>
     (
         mac IN ("<MAC1>", "<MAC2>")
         OR host_properties.sw_hostname{}.value=*rasp*
