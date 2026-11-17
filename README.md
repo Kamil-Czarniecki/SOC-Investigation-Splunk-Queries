@@ -1,2 +1,2 @@
 # SOC-Investigation-Splunk-Queries
-SPL
+Basic SPL queries for security monitoring, investigations, and SOC analyst use cases.
